@@ -23,6 +23,11 @@ int main()
     vector<Person> person;
     // vector的构造函数。
     vector<int> arr(10, 0);
+    vector<int> arr1(arr.begin(), arr.end());
+    vector<int> arr2(arr);
+    // vector赋值操作。
+    arr1 = arr; // 可以使用等号。
+    arr1.assign(5,250); // 也可以使用assign函数，与构造函数使用方法相同。
     Person person1(4);
     Person person2(3);
     Person person3(1);
@@ -51,5 +56,12 @@ int main()
         for_each(it->list.begin(), it->list.end(), print);
         cout << "out of for_each" << endl;
     }
+    // vector的属性。
+    cout << "capacity = " << arr.capacity() << endl; // 容量
+    cout << "size = " << arr.size() << endl; // 当前元素数量
+    cout << "is empty = " << arr.empty() << endl; // 是否为空
+    // vector的resize。
+    arr.resize(20,0); // 如果大于原长度，后面补上指定的数。
+    arr.resize(0); // 小于，则删除这些数据。
     return 0;
 }
