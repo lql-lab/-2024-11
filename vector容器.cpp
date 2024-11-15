@@ -68,5 +68,9 @@ int main()
     arr.erase(arr.begin() + 2);
     arr.erase(arr.begin() + 4, arr.begin() + 5);
     arr.clear();
+    // vector访问元素。
+    cout << v1[0] << v1.at(1) << endl;
+    // 可以访问首尾元素。
+    v2.front() = v2.back();
     return 0;
 }
