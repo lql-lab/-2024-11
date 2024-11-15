@@ -19,10 +19,12 @@ void print(int num)
 }
 int main()
 {
-    // vector容器是一个兼容各种数据类型的模板，可以执行数组的功能。
+    // vector容器是一个兼容各种数据类型的模板，可以执行数组的功能，类似可变数组。
     vector<Person> person;
     // vector的构造函数。
     vector<int> arr(10, 0);
+    // vector预留空间。
+    arr.reserve(100); // 预留的空间不会进行初始化，无法访问。目的在于减少IO次数。
     vector<int> arr1(arr.begin(), arr.end());
     vector<int> arr2(arr);
     // vector赋值操作。
@@ -72,5 +74,8 @@ int main()
     cout << v1[0] << v1.at(1) << endl;
     // 可以访问首尾元素。
     v2.front() = v2.back();
+    // vector交换容器。
+    // 巧用匿名函数，调用拷贝构造，防止内存浪费。
+    vector<int>(v2).swap(v1);
     return 0;
 }
