@@ -63,5 +63,10 @@ int main()
     // vector的resize。
     arr.resize(20,0); // 如果大于原长度，后面补上指定的数。
     arr.resize(0); // 小于，则删除这些数据。
+    // vector的插入删除，需要提供迭代器。
+    arr.insert(arr.begin() + 1, 100);
+    arr.erase(arr.begin() + 2);
+    arr.erase(arr.begin() + 4, arr.begin() + 5);
+    arr.clear();
     return 0;
 }
