@@ -25,7 +25,7 @@ User(int a = 1)
     set(a);
 }
     // 列表初始化。
-User(string a, int b):name(a),sex(b)
+User(string a, int b) :name(a), sex(b)
 {
 
 }
