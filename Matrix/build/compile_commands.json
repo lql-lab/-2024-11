@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lql/Desktop/C++/Matrix/build",
+  "command": "/usr/bin/c++  -I/home/lql/Desktop/C++/Matrix/include  -o CMakeFiles/Matrix.dir/main.cpp.o -c /home/lql/Desktop/C++/Matrix/main.cpp",
+  "file": "/home/lql/Desktop/C++/Matrix/main.cpp"
+}
+]
