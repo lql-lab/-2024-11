@@ -1,0 +1,16 @@
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/try_cap.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/erode_make.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/blur.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/canny.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/test.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/transform.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/rotate.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/roi.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/gauss.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/constract_bright.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/blurs.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/morph.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/fooldfill.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/pyr.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/edit_cache.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/rebuild_cache.dir
