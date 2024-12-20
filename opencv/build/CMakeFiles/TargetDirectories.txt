@@ -12,5 +12,8 @@
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/morph.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/fooldfill.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/pyr.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/threshold.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/sobel.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/houghline.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/edit_cache.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/rebuild_cache.dir

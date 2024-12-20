@@ -27,10 +27,13 @@ add_executable(blurs blurs.cpp)
 add_executable(morph dilate_erode.cpp)
 add_executable(fooldfill fooldfill.cpp)
 add_executable(pyr pyrup_down.cpp)
+add_executable(threshold threshold.cpp)
+add_executable(sobel sobel.cpp)
+add_executable(houghline houghline.cpp)
 
 # 所有需要链接的文件。
 set(EXECUTABLE_NAMES try_cap erode_make blur canny test transform rotate roi gauss constract_bright blurs morph
-    fooldfill pyr)
+    fooldfill pyr threshold sobel houghline)
 
 # 将OpenCV库链接到可执行文件目标上
 foreach(executable_name ${EXECUTABLE_NAMES})

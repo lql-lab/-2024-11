@@ -63,4 +63,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/morph.dir/DependInfo.cmake"
   "CMakeFiles/fooldfill.dir/DependInfo.cmake"
   "CMakeFiles/pyr.dir/DependInfo.cmake"
+  "CMakeFiles/threshold.dir/DependInfo.cmake"
+  "CMakeFiles/sobel.dir/DependInfo.cmake"
+  "CMakeFiles/houghline.dir/DependInfo.cmake"
   )

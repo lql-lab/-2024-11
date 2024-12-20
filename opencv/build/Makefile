@@ -298,6 +298,45 @@ pyr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyr.dir/build.make CMakeFiles/pyr.dir/build
 .PHONY : pyr/fast
 
+#=============================================================================
+# Target rules for targets named threshold
+
+# Build rule for target.
+threshold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 threshold
+.PHONY : threshold
+
+# fast build rule for target.
+threshold/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
+.PHONY : threshold/fast
+
+#=============================================================================
+# Target rules for targets named sobel
+
+# Build rule for target.
+sobel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sobel
+.PHONY : sobel
+
+# fast build rule for target.
+sobel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
+.PHONY : sobel/fast
+
+#=============================================================================
+# Target rules for targets named houghline
+
+# Build rule for target.
+houghline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 houghline
+.PHONY : houghline
+
+# fast build rule for target.
+houghline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/build
+.PHONY : houghline/fast
+
 blur.o: blur.cpp.o
 .PHONY : blur.o
 
@@ -490,6 +529,30 @@ gauss.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/gauss.cpp.s
 .PHONY : gauss.cpp.s
 
+houghline.o: houghline.cpp.o
+.PHONY : houghline.o
+
+# target to build an object file
+houghline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/houghline.cpp.o
+.PHONY : houghline.cpp.o
+
+houghline.i: houghline.cpp.i
+.PHONY : houghline.i
+
+# target to preprocess a source file
+houghline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/houghline.cpp.i
+.PHONY : houghline.cpp.i
+
+houghline.s: houghline.cpp.s
+.PHONY : houghline.s
+
+# target to generate assembly for a file
+houghline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/houghline.cpp.s
+.PHONY : houghline.cpp.s
+
 pyrup_down.o: pyrup_down.cpp.o
 .PHONY : pyrup_down.o
 
@@ -562,6 +625,30 @@ rotate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/rotate.cpp.s
 .PHONY : rotate.cpp.s
 
+sobel.o: sobel.cpp.o
+.PHONY : sobel.o
+
+# target to build an object file
+sobel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.o
+.PHONY : sobel.cpp.o
+
+sobel.i: sobel.cpp.i
+.PHONY : sobel.i
+
+# target to preprocess a source file
+sobel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.i
+.PHONY : sobel.cpp.i
+
+sobel.s: sobel.cpp.s
+.PHONY : sobel.s
+
+# target to generate assembly for a file
+sobel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.s
+.PHONY : sobel.cpp.s
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -585,6 +672,30 @@ test.s: test.cpp.s
 test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
+
+threshold.o: threshold.cpp.o
+.PHONY : threshold.o
+
+# target to build an object file
+threshold.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/threshold.cpp.o
+.PHONY : threshold.cpp.o
+
+threshold.i: threshold.cpp.i
+.PHONY : threshold.i
+
+# target to preprocess a source file
+threshold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/threshold.cpp.i
+.PHONY : threshold.cpp.i
+
+threshold.s: threshold.cpp.s
+.PHONY : threshold.s
+
+# target to generate assembly for a file
+threshold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/threshold.cpp.s
+.PHONY : threshold.cpp.s
 
 transform.o: transform.cpp.o
 .PHONY : transform.o
@@ -649,11 +760,14 @@ help:
 	@echo "... erode_make"
 	@echo "... fooldfill"
 	@echo "... gauss"
+	@echo "... houghline"
 	@echo "... morph"
 	@echo "... pyr"
 	@echo "... roi"
 	@echo "... rotate"
+	@echo "... sobel"
 	@echo "... test"
+	@echo "... threshold"
 	@echo "... transform"
 	@echo "... try_cap"
 	@echo "... blur.o"
@@ -680,6 +794,9 @@ help:
 	@echo "... gauss.o"
 	@echo "... gauss.i"
 	@echo "... gauss.s"
+	@echo "... houghline.o"
+	@echo "... houghline.i"
+	@echo "... houghline.s"
 	@echo "... pyrup_down.o"
 	@echo "... pyrup_down.i"
 	@echo "... pyrup_down.s"
@@ -689,9 +806,15 @@ help:
 	@echo "... rotate.o"
 	@echo "... rotate.i"
 	@echo "... rotate.s"
+	@echo "... sobel.o"
+	@echo "... sobel.i"
+	@echo "... sobel.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... threshold.o"
+	@echo "... threshold.i"
+	@echo "... threshold.s"
 	@echo "... transform.o"
 	@echo "... transform.i"
 	@echo "... transform.s"
