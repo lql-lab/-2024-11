@@ -80,6 +80,19 @@ all: CMakeFiles/pyr.dir/all
 all: CMakeFiles/threshold.dir/all
 all: CMakeFiles/sobel.dir/all
 all: CMakeFiles/houghline.dir/all
+all: CMakeFiles/houghlineP.dir/all
+all: CMakeFiles/houghs.dir/all
+all: CMakeFiles/houghcircle.dir/all
+all: CMakeFiles/equalhist.dir/all
+all: CMakeFiles/warp.dir/all
+all: CMakeFiles/counters.dir/all
+all: CMakeFiles/counters2.dir/all
+all: CMakeFiles/hull.dir/all
+all: CMakeFiles/hull2.dir/all
+all: CMakeFiles/replain.dir/all
+all: CMakeFiles/hist1.dir/all
+all: CMakeFiles/backpro.dir/all
+all: CMakeFiles/harris.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,6 +117,19 @@ clean: CMakeFiles/pyr.dir/clean
 clean: CMakeFiles/threshold.dir/clean
 clean: CMakeFiles/sobel.dir/clean
 clean: CMakeFiles/houghline.dir/clean
+clean: CMakeFiles/houghlineP.dir/clean
+clean: CMakeFiles/houghs.dir/clean
+clean: CMakeFiles/houghcircle.dir/clean
+clean: CMakeFiles/equalhist.dir/clean
+clean: CMakeFiles/warp.dir/clean
+clean: CMakeFiles/counters.dir/clean
+clean: CMakeFiles/counters2.dir/clean
+clean: CMakeFiles/hull.dir/clean
+clean: CMakeFiles/hull2.dir/clean
+clean: CMakeFiles/replain.dir/clean
+clean: CMakeFiles/hist1.dir/clean
+clean: CMakeFiles/backpro.dir/clean
+clean: CMakeFiles/harris.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,7 +139,7 @@ clean: CMakeFiles/houghline.dir/clean
 CMakeFiles/try_cap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_cap.dir/build.make CMakeFiles/try_cap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_cap.dir/build.make CMakeFiles/try_cap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=33,34 "Built target try_cap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=57,58 "Built target try_cap"
 .PHONY : CMakeFiles/try_cap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +165,7 @@ CMakeFiles/try_cap.dir/clean:
 CMakeFiles/erode_make.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/erode_make.dir/build.make CMakeFiles/erode_make.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/erode_make.dir/build.make CMakeFiles/erode_make.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=9,10 "Built target erode_make"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=17,18 "Built target erode_make"
 .PHONY : CMakeFiles/erode_make.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +191,7 @@ CMakeFiles/erode_make.dir/clean:
 CMakeFiles/blur.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blur.dir/build.make CMakeFiles/blur.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blur.dir/build.make CMakeFiles/blur.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=1,2 "Built target blur"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=3,4 "Built target blur"
 .PHONY : CMakeFiles/blur.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +217,7 @@ CMakeFiles/blur.dir/clean:
 CMakeFiles/canny.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=5,6 "Built target canny"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=7,8 "Built target canny"
 .PHONY : CMakeFiles/canny.dir/all
 
 # Build rule for subdir invocation for target.
@@ -217,7 +243,7 @@ CMakeFiles/canny.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=27,28 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=51,52 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -243,7 +269,7 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform.dir/build.make CMakeFiles/transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform.dir/build.make CMakeFiles/transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=31,32 "Built target transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=55,56 "Built target transform"
 .PHONY : CMakeFiles/transform.dir/all
 
 # Build rule for subdir invocation for target.
@@ -269,7 +295,7 @@ CMakeFiles/transform.dir/clean:
 CMakeFiles/rotate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=23,24 "Built target rotate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=47,48 "Built target rotate"
 .PHONY : CMakeFiles/rotate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,7 +321,7 @@ CMakeFiles/rotate.dir/clean:
 CMakeFiles/roi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roi.dir/build.make CMakeFiles/roi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roi.dir/build.make CMakeFiles/roi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=21,22 "Built target roi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=45,46 "Built target roi"
 .PHONY : CMakeFiles/roi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -321,7 +347,7 @@ CMakeFiles/roi.dir/clean:
 CMakeFiles/gauss.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=13,14 "Built target gauss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=21,22 "Built target gauss"
 .PHONY : CMakeFiles/gauss.dir/all
 
 # Build rule for subdir invocation for target.
@@ -347,7 +373,7 @@ CMakeFiles/gauss.dir/clean:
 CMakeFiles/constract_bright.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/constract_bright.dir/build.make CMakeFiles/constract_bright.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/constract_bright.dir/build.make CMakeFiles/constract_bright.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=7,8 "Built target constract_bright"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=9,10 "Built target constract_bright"
 .PHONY : CMakeFiles/constract_bright.dir/all
 
 # Build rule for subdir invocation for target.
@@ -373,7 +399,7 @@ CMakeFiles/constract_bright.dir/clean:
 CMakeFiles/blurs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blurs.dir/build.make CMakeFiles/blurs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blurs.dir/build.make CMakeFiles/blurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=3,4 "Built target blurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=5,6 "Built target blurs"
 .PHONY : CMakeFiles/blurs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -399,7 +425,7 @@ CMakeFiles/blurs.dir/clean:
 CMakeFiles/morph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morph.dir/build.make CMakeFiles/morph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morph.dir/build.make CMakeFiles/morph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=17,18 "Built target morph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=39,40 "Built target morph"
 .PHONY : CMakeFiles/morph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,7 +451,7 @@ CMakeFiles/morph.dir/clean:
 CMakeFiles/fooldfill.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooldfill.dir/build.make CMakeFiles/fooldfill.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fooldfill.dir/build.make CMakeFiles/fooldfill.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=11,12 "Built target fooldfill"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=19,20 "Built target fooldfill"
 .PHONY : CMakeFiles/fooldfill.dir/all
 
 # Build rule for subdir invocation for target.
@@ -451,7 +477,7 @@ CMakeFiles/fooldfill.dir/clean:
 CMakeFiles/pyr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyr.dir/build.make CMakeFiles/pyr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyr.dir/build.make CMakeFiles/pyr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=19,20 "Built target pyr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=41,42 "Built target pyr"
 .PHONY : CMakeFiles/pyr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +503,7 @@ CMakeFiles/pyr.dir/clean:
 CMakeFiles/threshold.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=29,30 "Built target threshold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=53,54 "Built target threshold"
 .PHONY : CMakeFiles/threshold.dir/all
 
 # Build rule for subdir invocation for target.
@@ -503,7 +529,7 @@ CMakeFiles/threshold.dir/clean:
 CMakeFiles/sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=25,26 "Built target sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=49,50 "Built target sobel"
 .PHONY : CMakeFiles/sobel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -529,7 +555,7 @@ CMakeFiles/sobel.dir/clean:
 CMakeFiles/houghline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=15,16 "Built target houghline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=29,30 "Built target houghline"
 .PHONY : CMakeFiles/houghline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -547,6 +573,344 @@ houghline: CMakeFiles/houghline.dir/rule
 CMakeFiles/houghline.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/clean
 .PHONY : CMakeFiles/houghline.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/houghlineP.dir
+
+# All Build rule for target.
+CMakeFiles/houghlineP.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=31,32 "Built target houghlineP"
+.PHONY : CMakeFiles/houghlineP.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/houghlineP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/houghlineP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/houghlineP.dir/rule
+
+# Convenience name for target.
+houghlineP: CMakeFiles/houghlineP.dir/rule
+.PHONY : houghlineP
+
+# clean rule for target.
+CMakeFiles/houghlineP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/clean
+.PHONY : CMakeFiles/houghlineP.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/houghs.dir
+
+# All Build rule for target.
+CMakeFiles/houghs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=33,34 "Built target houghs"
+.PHONY : CMakeFiles/houghs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/houghs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/houghs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/houghs.dir/rule
+
+# Convenience name for target.
+houghs: CMakeFiles/houghs.dir/rule
+.PHONY : houghs
+
+# clean rule for target.
+CMakeFiles/houghs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/clean
+.PHONY : CMakeFiles/houghs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/houghcircle.dir
+
+# All Build rule for target.
+CMakeFiles/houghcircle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=27,28 "Built target houghcircle"
+.PHONY : CMakeFiles/houghcircle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/houghcircle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/houghcircle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/houghcircle.dir/rule
+
+# Convenience name for target.
+houghcircle: CMakeFiles/houghcircle.dir/rule
+.PHONY : houghcircle
+
+# clean rule for target.
+CMakeFiles/houghcircle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/clean
+.PHONY : CMakeFiles/houghcircle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/equalhist.dir
+
+# All Build rule for target.
+CMakeFiles/equalhist.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=15,16 "Built target equalhist"
+.PHONY : CMakeFiles/equalhist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/equalhist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/equalhist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/equalhist.dir/rule
+
+# Convenience name for target.
+equalhist: CMakeFiles/equalhist.dir/rule
+.PHONY : equalhist
+
+# clean rule for target.
+CMakeFiles/equalhist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/clean
+.PHONY : CMakeFiles/equalhist.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/warp.dir
+
+# All Build rule for target.
+CMakeFiles/warp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=59,60 "Built target warp"
+.PHONY : CMakeFiles/warp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/warp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/warp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/warp.dir/rule
+
+# Convenience name for target.
+warp: CMakeFiles/warp.dir/rule
+.PHONY : warp
+
+# clean rule for target.
+CMakeFiles/warp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/clean
+.PHONY : CMakeFiles/warp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/counters.dir
+
+# All Build rule for target.
+CMakeFiles/counters.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=11,12 "Built target counters"
+.PHONY : CMakeFiles/counters.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/counters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/counters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/counters.dir/rule
+
+# Convenience name for target.
+counters: CMakeFiles/counters.dir/rule
+.PHONY : counters
+
+# clean rule for target.
+CMakeFiles/counters.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/clean
+.PHONY : CMakeFiles/counters.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/counters2.dir
+
+# All Build rule for target.
+CMakeFiles/counters2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=13,14 "Built target counters2"
+.PHONY : CMakeFiles/counters2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/counters2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/counters2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/counters2.dir/rule
+
+# Convenience name for target.
+counters2: CMakeFiles/counters2.dir/rule
+.PHONY : counters2
+
+# clean rule for target.
+CMakeFiles/counters2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/clean
+.PHONY : CMakeFiles/counters2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hull.dir
+
+# All Build rule for target.
+CMakeFiles/hull.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=35,36 "Built target hull"
+.PHONY : CMakeFiles/hull.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hull.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hull.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/hull.dir/rule
+
+# Convenience name for target.
+hull: CMakeFiles/hull.dir/rule
+.PHONY : hull
+
+# clean rule for target.
+CMakeFiles/hull.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/clean
+.PHONY : CMakeFiles/hull.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hull2.dir
+
+# All Build rule for target.
+CMakeFiles/hull2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=37,38 "Built target hull2"
+.PHONY : CMakeFiles/hull2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hull2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hull2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/hull2.dir/rule
+
+# Convenience name for target.
+hull2: CMakeFiles/hull2.dir/rule
+.PHONY : hull2
+
+# clean rule for target.
+CMakeFiles/hull2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/clean
+.PHONY : CMakeFiles/hull2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/replain.dir
+
+# All Build rule for target.
+CMakeFiles/replain.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=43,44 "Built target replain"
+.PHONY : CMakeFiles/replain.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/replain.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/replain.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/replain.dir/rule
+
+# Convenience name for target.
+replain: CMakeFiles/replain.dir/rule
+.PHONY : replain
+
+# clean rule for target.
+CMakeFiles/replain.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/clean
+.PHONY : CMakeFiles/replain.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hist1.dir
+
+# All Build rule for target.
+CMakeFiles/hist1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=25,26 "Built target hist1"
+.PHONY : CMakeFiles/hist1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hist1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hist1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/hist1.dir/rule
+
+# Convenience name for target.
+hist1: CMakeFiles/hist1.dir/rule
+.PHONY : hist1
+
+# clean rule for target.
+CMakeFiles/hist1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/clean
+.PHONY : CMakeFiles/hist1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/backpro.dir
+
+# All Build rule for target.
+CMakeFiles/backpro.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=1,2 "Built target backpro"
+.PHONY : CMakeFiles/backpro.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/backpro.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/backpro.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/backpro.dir/rule
+
+# Convenience name for target.
+backpro: CMakeFiles/backpro.dir/rule
+.PHONY : backpro
+
+# clean rule for target.
+CMakeFiles/backpro.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/clean
+.PHONY : CMakeFiles/backpro.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/harris.dir
+
+# All Build rule for target.
+CMakeFiles/harris.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=23,24 "Built target harris"
+.PHONY : CMakeFiles/harris.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/harris.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/harris.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/harris.dir/rule
+
+# Convenience name for target.
+harris: CMakeFiles/harris.dir/rule
+.PHONY : harris
+
+# clean rule for target.
+CMakeFiles/harris.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/clean
+.PHONY : CMakeFiles/harris.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -337,6 +337,199 @@ houghline/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/build
 .PHONY : houghline/fast
 
+#=============================================================================
+# Target rules for targets named houghlineP
+
+# Build rule for target.
+houghlineP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 houghlineP
+.PHONY : houghlineP
+
+# fast build rule for target.
+houghlineP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/build
+.PHONY : houghlineP/fast
+
+#=============================================================================
+# Target rules for targets named houghs
+
+# Build rule for target.
+houghs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 houghs
+.PHONY : houghs
+
+# fast build rule for target.
+houghs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/build
+.PHONY : houghs/fast
+
+#=============================================================================
+# Target rules for targets named houghcircle
+
+# Build rule for target.
+houghcircle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 houghcircle
+.PHONY : houghcircle
+
+# fast build rule for target.
+houghcircle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/build
+.PHONY : houghcircle/fast
+
+#=============================================================================
+# Target rules for targets named equalhist
+
+# Build rule for target.
+equalhist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 equalhist
+.PHONY : equalhist
+
+# fast build rule for target.
+equalhist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/build
+.PHONY : equalhist/fast
+
+#=============================================================================
+# Target rules for targets named warp
+
+# Build rule for target.
+warp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 warp
+.PHONY : warp
+
+# fast build rule for target.
+warp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/build
+.PHONY : warp/fast
+
+#=============================================================================
+# Target rules for targets named counters
+
+# Build rule for target.
+counters: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 counters
+.PHONY : counters
+
+# fast build rule for target.
+counters/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/build
+.PHONY : counters/fast
+
+#=============================================================================
+# Target rules for targets named counters2
+
+# Build rule for target.
+counters2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 counters2
+.PHONY : counters2
+
+# fast build rule for target.
+counters2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/build
+.PHONY : counters2/fast
+
+#=============================================================================
+# Target rules for targets named hull
+
+# Build rule for target.
+hull: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hull
+.PHONY : hull
+
+# fast build rule for target.
+hull/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/build
+.PHONY : hull/fast
+
+#=============================================================================
+# Target rules for targets named hull2
+
+# Build rule for target.
+hull2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hull2
+.PHONY : hull2
+
+# fast build rule for target.
+hull2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/build
+.PHONY : hull2/fast
+
+#=============================================================================
+# Target rules for targets named replain
+
+# Build rule for target.
+replain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 replain
+.PHONY : replain
+
+# fast build rule for target.
+replain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/build
+.PHONY : replain/fast
+
+#=============================================================================
+# Target rules for targets named hist1
+
+# Build rule for target.
+hist1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hist1
+.PHONY : hist1
+
+# fast build rule for target.
+hist1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/build
+.PHONY : hist1/fast
+
+#=============================================================================
+# Target rules for targets named backpro
+
+# Build rule for target.
+backpro: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 backpro
+.PHONY : backpro
+
+# fast build rule for target.
+backpro/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/build
+.PHONY : backpro/fast
+
+#=============================================================================
+# Target rules for targets named harris
+
+# Build rule for target.
+harris: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 harris
+.PHONY : harris
+
+# fast build rule for target.
+harris/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/build
+.PHONY : harris/fast
+
+backproject.o: backproject.cpp.o
+.PHONY : backproject.o
+
+# target to build an object file
+backproject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/backproject.cpp.o
+.PHONY : backproject.cpp.o
+
+backproject.i: backproject.cpp.i
+.PHONY : backproject.i
+
+# target to preprocess a source file
+backproject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/backproject.cpp.i
+.PHONY : backproject.cpp.i
+
+backproject.s: backproject.cpp.s
+.PHONY : backproject.s
+
+# target to generate assembly for a file
+backproject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backpro.dir/build.make CMakeFiles/backpro.dir/backproject.cpp.s
+.PHONY : backproject.cpp.s
+
 blur.o: blur.cpp.o
 .PHONY : blur.o
 
@@ -433,6 +626,54 @@ constract_bright.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/constract_bright.dir/build.make CMakeFiles/constract_bright.dir/constract_bright.cpp.s
 .PHONY : constract_bright.cpp.s
 
+counters.o: counters.cpp.o
+.PHONY : counters.o
+
+# target to build an object file
+counters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/counters.cpp.o
+.PHONY : counters.cpp.o
+
+counters.i: counters.cpp.i
+.PHONY : counters.i
+
+# target to preprocess a source file
+counters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/counters.cpp.i
+.PHONY : counters.cpp.i
+
+counters.s: counters.cpp.s
+.PHONY : counters.s
+
+# target to generate assembly for a file
+counters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters.dir/build.make CMakeFiles/counters.dir/counters.cpp.s
+.PHONY : counters.cpp.s
+
+counters2.o: counters2.cpp.o
+.PHONY : counters2.o
+
+# target to build an object file
+counters2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/counters2.cpp.o
+.PHONY : counters2.cpp.o
+
+counters2.i: counters2.cpp.i
+.PHONY : counters2.i
+
+# target to preprocess a source file
+counters2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/counters2.cpp.i
+.PHONY : counters2.cpp.i
+
+counters2.s: counters2.cpp.s
+.PHONY : counters2.s
+
+# target to generate assembly for a file
+counters2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counters2.dir/build.make CMakeFiles/counters2.dir/counters2.cpp.s
+.PHONY : counters2.cpp.s
+
 dilate_erode.o: dilate_erode.cpp.o
 .PHONY : dilate_erode.o
 
@@ -456,6 +697,30 @@ dilate_erode.s: dilate_erode.cpp.s
 dilate_erode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morph.dir/build.make CMakeFiles/morph.dir/dilate_erode.cpp.s
 .PHONY : dilate_erode.cpp.s
+
+equalhist.o: equalhist.cpp.o
+.PHONY : equalhist.o
+
+# target to build an object file
+equalhist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/equalhist.cpp.o
+.PHONY : equalhist.cpp.o
+
+equalhist.i: equalhist.cpp.i
+.PHONY : equalhist.i
+
+# target to preprocess a source file
+equalhist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/equalhist.cpp.i
+.PHONY : equalhist.cpp.i
+
+equalhist.s: equalhist.cpp.s
+.PHONY : equalhist.s
+
+# target to generate assembly for a file
+equalhist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalhist.dir/build.make CMakeFiles/equalhist.dir/equalhist.cpp.s
+.PHONY : equalhist.cpp.s
 
 erode.o: erode.cpp.o
 .PHONY : erode.o
@@ -529,6 +794,78 @@ gauss.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/gauss.cpp.s
 .PHONY : gauss.cpp.s
 
+harris.o: harris.cpp.o
+.PHONY : harris.o
+
+# target to build an object file
+harris.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.o
+.PHONY : harris.cpp.o
+
+harris.i: harris.cpp.i
+.PHONY : harris.i
+
+# target to preprocess a source file
+harris.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.i
+.PHONY : harris.cpp.i
+
+harris.s: harris.cpp.s
+.PHONY : harris.s
+
+# target to generate assembly for a file
+harris.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.s
+.PHONY : harris.cpp.s
+
+hist_dim1.o: hist_dim1.cpp.o
+.PHONY : hist_dim1.o
+
+# target to build an object file
+hist_dim1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/hist_dim1.cpp.o
+.PHONY : hist_dim1.cpp.o
+
+hist_dim1.i: hist_dim1.cpp.i
+.PHONY : hist_dim1.i
+
+# target to preprocess a source file
+hist_dim1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/hist_dim1.cpp.i
+.PHONY : hist_dim1.cpp.i
+
+hist_dim1.s: hist_dim1.cpp.s
+.PHONY : hist_dim1.s
+
+# target to generate assembly for a file
+hist_dim1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hist1.dir/build.make CMakeFiles/hist1.dir/hist_dim1.cpp.s
+.PHONY : hist_dim1.cpp.s
+
+houghcircle.o: houghcircle.cpp.o
+.PHONY : houghcircle.o
+
+# target to build an object file
+houghcircle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/houghcircle.cpp.o
+.PHONY : houghcircle.cpp.o
+
+houghcircle.i: houghcircle.cpp.i
+.PHONY : houghcircle.i
+
+# target to preprocess a source file
+houghcircle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/houghcircle.cpp.i
+.PHONY : houghcircle.cpp.i
+
+houghcircle.s: houghcircle.cpp.s
+.PHONY : houghcircle.s
+
+# target to generate assembly for a file
+houghcircle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircle.dir/build.make CMakeFiles/houghcircle.dir/houghcircle.cpp.s
+.PHONY : houghcircle.cpp.s
+
 houghline.o: houghline.cpp.o
 .PHONY : houghline.o
 
@@ -553,6 +890,102 @@ houghline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/houghline.cpp.s
 .PHONY : houghline.cpp.s
 
+houghlineP.o: houghlineP.cpp.o
+.PHONY : houghlineP.o
+
+# target to build an object file
+houghlineP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/houghlineP.cpp.o
+.PHONY : houghlineP.cpp.o
+
+houghlineP.i: houghlineP.cpp.i
+.PHONY : houghlineP.i
+
+# target to preprocess a source file
+houghlineP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/houghlineP.cpp.i
+.PHONY : houghlineP.cpp.i
+
+houghlineP.s: houghlineP.cpp.s
+.PHONY : houghlineP.s
+
+# target to generate assembly for a file
+houghlineP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/houghlineP.cpp.s
+.PHONY : houghlineP.cpp.s
+
+houghs.o: houghs.cpp.o
+.PHONY : houghs.o
+
+# target to build an object file
+houghs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/houghs.cpp.o
+.PHONY : houghs.cpp.o
+
+houghs.i: houghs.cpp.i
+.PHONY : houghs.i
+
+# target to preprocess a source file
+houghs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/houghs.cpp.i
+.PHONY : houghs.cpp.i
+
+houghs.s: houghs.cpp.s
+.PHONY : houghs.s
+
+# target to generate assembly for a file
+houghs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghs.dir/build.make CMakeFiles/houghs.dir/houghs.cpp.s
+.PHONY : houghs.cpp.s
+
+hull.o: hull.cpp.o
+.PHONY : hull.o
+
+# target to build an object file
+hull.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/hull.cpp.o
+.PHONY : hull.cpp.o
+
+hull.i: hull.cpp.i
+.PHONY : hull.i
+
+# target to preprocess a source file
+hull.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/hull.cpp.i
+.PHONY : hull.cpp.i
+
+hull.s: hull.cpp.s
+.PHONY : hull.s
+
+# target to generate assembly for a file
+hull.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull.dir/build.make CMakeFiles/hull.dir/hull.cpp.s
+.PHONY : hull.cpp.s
+
+hull2.o: hull2.cpp.o
+.PHONY : hull2.o
+
+# target to build an object file
+hull2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/hull2.cpp.o
+.PHONY : hull2.cpp.o
+
+hull2.i: hull2.cpp.i
+.PHONY : hull2.i
+
+# target to preprocess a source file
+hull2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/hull2.cpp.i
+.PHONY : hull2.cpp.i
+
+hull2.s: hull2.cpp.s
+.PHONY : hull2.s
+
+# target to generate assembly for a file
+hull2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hull2.dir/build.make CMakeFiles/hull2.dir/hull2.cpp.s
+.PHONY : hull2.cpp.s
+
 pyrup_down.o: pyrup_down.cpp.o
 .PHONY : pyrup_down.o
 
@@ -576,6 +1009,30 @@ pyrup_down.s: pyrup_down.cpp.s
 pyrup_down.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyr.dir/build.make CMakeFiles/pyr.dir/pyrup_down.cpp.s
 .PHONY : pyrup_down.cpp.s
+
+replain.o: replain.cpp.o
+.PHONY : replain.o
+
+# target to build an object file
+replain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/replain.cpp.o
+.PHONY : replain.cpp.o
+
+replain.i: replain.cpp.i
+.PHONY : replain.i
+
+# target to preprocess a source file
+replain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/replain.cpp.i
+.PHONY : replain.cpp.i
+
+replain.s: replain.cpp.s
+.PHONY : replain.s
+
+# target to generate assembly for a file
+replain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/replain.dir/build.make CMakeFiles/replain.dir/replain.cpp.s
+.PHONY : replain.cpp.s
 
 roi_image.o: roi_image.cpp.o
 .PHONY : roi_image.o
@@ -745,6 +1202,30 @@ try.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_cap.dir/build.make CMakeFiles/try_cap.dir/try.cpp.s
 .PHONY : try.cpp.s
 
+warpaffine.o: warpaffine.cpp.o
+.PHONY : warpaffine.o
+
+# target to build an object file
+warpaffine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/warpaffine.cpp.o
+.PHONY : warpaffine.cpp.o
+
+warpaffine.i: warpaffine.cpp.i
+.PHONY : warpaffine.i
+
+# target to preprocess a source file
+warpaffine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/warpaffine.cpp.i
+.PHONY : warpaffine.cpp.i
+
+warpaffine.s: warpaffine.cpp.s
+.PHONY : warpaffine.s
+
+# target to generate assembly for a file
+warpaffine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/warpaffine.cpp.s
+.PHONY : warpaffine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -753,16 +1234,28 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... backpro"
 	@echo "... blur"
 	@echo "... blurs"
 	@echo "... canny"
 	@echo "... constract_bright"
+	@echo "... counters"
+	@echo "... counters2"
+	@echo "... equalhist"
 	@echo "... erode_make"
 	@echo "... fooldfill"
 	@echo "... gauss"
+	@echo "... harris"
+	@echo "... hist1"
+	@echo "... houghcircle"
 	@echo "... houghline"
+	@echo "... houghlineP"
+	@echo "... houghs"
+	@echo "... hull"
+	@echo "... hull2"
 	@echo "... morph"
 	@echo "... pyr"
+	@echo "... replain"
 	@echo "... roi"
 	@echo "... rotate"
 	@echo "... sobel"
@@ -770,6 +1263,10 @@ help:
 	@echo "... threshold"
 	@echo "... transform"
 	@echo "... try_cap"
+	@echo "... warp"
+	@echo "... backproject.o"
+	@echo "... backproject.i"
+	@echo "... backproject.s"
 	@echo "... blur.o"
 	@echo "... blur.i"
 	@echo "... blur.s"
@@ -782,9 +1279,18 @@ help:
 	@echo "... constract_bright.o"
 	@echo "... constract_bright.i"
 	@echo "... constract_bright.s"
+	@echo "... counters.o"
+	@echo "... counters.i"
+	@echo "... counters.s"
+	@echo "... counters2.o"
+	@echo "... counters2.i"
+	@echo "... counters2.s"
 	@echo "... dilate_erode.o"
 	@echo "... dilate_erode.i"
 	@echo "... dilate_erode.s"
+	@echo "... equalhist.o"
+	@echo "... equalhist.i"
+	@echo "... equalhist.s"
 	@echo "... erode.o"
 	@echo "... erode.i"
 	@echo "... erode.s"
@@ -794,12 +1300,36 @@ help:
 	@echo "... gauss.o"
 	@echo "... gauss.i"
 	@echo "... gauss.s"
+	@echo "... harris.o"
+	@echo "... harris.i"
+	@echo "... harris.s"
+	@echo "... hist_dim1.o"
+	@echo "... hist_dim1.i"
+	@echo "... hist_dim1.s"
+	@echo "... houghcircle.o"
+	@echo "... houghcircle.i"
+	@echo "... houghcircle.s"
 	@echo "... houghline.o"
 	@echo "... houghline.i"
 	@echo "... houghline.s"
+	@echo "... houghlineP.o"
+	@echo "... houghlineP.i"
+	@echo "... houghlineP.s"
+	@echo "... houghs.o"
+	@echo "... houghs.i"
+	@echo "... houghs.s"
+	@echo "... hull.o"
+	@echo "... hull.i"
+	@echo "... hull.s"
+	@echo "... hull2.o"
+	@echo "... hull2.i"
+	@echo "... hull2.s"
 	@echo "... pyrup_down.o"
 	@echo "... pyrup_down.i"
 	@echo "... pyrup_down.s"
+	@echo "... replain.o"
+	@echo "... replain.i"
+	@echo "... replain.s"
 	@echo "... roi_image.o"
 	@echo "... roi_image.i"
 	@echo "... roi_image.s"
@@ -821,6 +1351,9 @@ help:
 	@echo "... try.o"
 	@echo "... try.i"
 	@echo "... try.s"
+	@echo "... warpaffine.o"
+	@echo "... warpaffine.i"
+	@echo "... warpaffine.s"
 .PHONY : help
 
 

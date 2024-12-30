@@ -1,104 +1,79 @@
-// {
-//     "version": "0.2.0",
-//     "configurations": [
-//         {
-//             "name": "Launch Program",
-//             "type": "cppdbg",
-//             "request": "launch",
-//             "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
-//             "args": [],
-//             "stopAtEntry": false,
-//             "cwd": "${workspaceFolder}",
-//             "environment": [],
-//             "externalConsole": false,
-//             "MIMode": "gdb",
-//             "setupCommands": [
-//                 {
-//                     "description": "Enable pretty-printing for gdb",
-//                     "text": "-enable-pretty-printing",
-//                     "ignoreFailures": true
-//                 }
-//             ],
-//             "miDebuggerPath": "/usr/bin/gdb",
-//             "preLaunchTask": "CMake Build",
-//             "internalConsoleOptions": "openOnSessionStart"
-//         },
-//         {
-//             "name": "(gdb) 启动",
-//             "type": "cppdbg",
-//             "request": "launch",
-//             "program": "输入程序名称，例如 ${workspaceFolder}/a.out",
-//             "args": [],
-//             "stopAtEntry": false,
-//             "cwd": "${fileDirname}",
-//             "environment": [],
-//             "externalConsole": false,
-//             "MIMode": "gdb",
-//             "setupCommands": [
-//                 {
-//                     "description": "为 gdb 启用整齐打印",
-//                     "text": "-enable-pretty-printing",
-//                     "ignoreFailures": true
-//                 },
-//                 {
-//                     "description": "将反汇编风格设置为 Intel",
-//                     "text": "-gdb-set disassembly-flavor intel",
-//                     "ignoreFailures": true
-//                 }
-//             ]
-//         },
-//         {
-//             "name": "C/C++: g++-11 生成和调试活动文件",
-//             "type": "cppdbg",
-//             "request": "launch",
-//             "program": "${fileDirname}/${fileBasenameNoExtension}",
-//             "args": [],
-//             "stopAtEntry": false,
-//             "cwd": "${fileDirname}",
-//             "environment": [],
-//             "externalConsole": false,
-//             "MIMode": "gdb",
-//             "setupCommands": [
-//                 {
-//                     "description": "为 gdb 启用整齐打印",
-//                     "text": "-enable-pretty-printing",
-//                     "ignoreFailures": true
-//                 },
-//                 {
-//                     "description": "将反汇编风格设置为 Intel",
-//                     "text": "-gdb-set disassembly-flavor intel",
-//                     "ignoreFailures": true
-//                 }
-//             ],
-//             "preLaunchTask": "C/C++: g++-11 生成活动文件",
-//             "miDebuggerPath": "/usr/bin/gdb"
-//         }
-//     ]
-// }
 {
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",               // 调试配置的名称，任意自定义
-            "type": "cppdbg",                       // 指定 C++ 调试类型
-            "request": "launch",                    // 请求类型，"launch" 表示启动程序
-            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}", // 要调试的可执行文件路径
-            "args": [],                             // 程序启动时传递的参数（可为空）
-            "stopAtEntry": false,                   // 是否在程序入口处暂停
-            "cwd": "${workspaceFolder}",            // 设置工作目录
-            "environment": [],                      // 环境变量配置（可为空）
-            "externalConsole": false,               // 是否使用外部终端
-            "MIMode": "gdb",                        // 使用的调试器模式，通常是 GDB
-            "setupCommands": [                      // 调试器启动时执行的命令
+            "name": "Launch Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
             ],
-            "miDebuggerPath": "/usr/bin/gdb",       // GDB 调试器路径
-            "preLaunchTask": "CMake Build",         // 调试前执行的任务，一般为构建任务
-            "internalConsoleOptions": "openOnSessionStart"  // 调试控制台的设置
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake Build",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "C/C++: gcc 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc 生成活动文件",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "C/C++: g++-11 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++-11 生成活动文件",
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }

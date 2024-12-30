@@ -30,10 +30,24 @@ add_executable(pyr pyrup_down.cpp)
 add_executable(threshold threshold.cpp)
 add_executable(sobel sobel.cpp)
 add_executable(houghline houghline.cpp)
+add_executable(houghlineP houghlineP.cpp)
+add_executable(houghs houghs.cpp)
+add_executable(houghcircle houghcircle.cpp)
+add_executable(equalhist equalhist.cpp)
+add_executable(warp warpaffine.cpp)
+add_executable(counters counters.cpp)
+add_executable(counters2 counters2.cpp)
+add_executable(hull hull.cpp)
+add_executable(hull2 hull2.cpp)
+add_executable(replain replain.cpp)
+add_executable(hist1 hist_dim1.cpp)
+add_executable(backpro backproject.cpp)
+add_executable(harris harris.cpp)
 
 # 所有需要链接的文件。
 set(EXECUTABLE_NAMES try_cap erode_make blur canny test transform rotate roi gauss constract_bright blurs morph
-    fooldfill pyr threshold sobel houghline)
+    fooldfill pyr threshold sobel houghline houghlineP houghs houghcircle equalhist warp counters hull
+    hull2 counters2 replain hist1 backpro harris)
 
 # 将OpenCV库链接到可执行文件目标上
 foreach(executable_name ${EXECUTABLE_NAMES})

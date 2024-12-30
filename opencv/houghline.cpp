@@ -5,7 +5,7 @@ int main()
 {
     cv::Mat src_img, temp_img, dst_img;
 
-    src_img = cv::imread("/home/lql/Desktop/C++/images/train2017/000000000626.jpg", 1);
+    src_img = cv::imread("/home/lql/Desktop/C++/images/train2017/000000000531.jpg", 1);
     src_img.copyTo(dst_img);
 
     cv::cvtColor(src_img, src_img, cv::COLOR_BGR2GRAY);
