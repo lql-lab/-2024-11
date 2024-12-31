@@ -506,6 +506,19 @@ harris/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/build
 .PHONY : harris/fast
 
+#=============================================================================
+# Target rules for targets named shi
+
+# Build rule for target.
+shi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shi
+.PHONY : shi
+
+# fast build rule for target.
+shi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/build
+.PHONY : shi/fast
+
 backproject.o: backproject.cpp.o
 .PHONY : backproject.o
 
@@ -1082,6 +1095,30 @@ rotate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate.dir/build.make CMakeFiles/rotate.dir/rotate.cpp.s
 .PHONY : rotate.cpp.s
 
+shi-tomas.o: shi-tomas.cpp.o
+.PHONY : shi-tomas.o
+
+# target to build an object file
+shi-tomas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/shi-tomas.cpp.o
+.PHONY : shi-tomas.cpp.o
+
+shi-tomas.i: shi-tomas.cpp.i
+.PHONY : shi-tomas.i
+
+# target to preprocess a source file
+shi-tomas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/shi-tomas.cpp.i
+.PHONY : shi-tomas.cpp.i
+
+shi-tomas.s: shi-tomas.cpp.s
+.PHONY : shi-tomas.s
+
+# target to generate assembly for a file
+shi-tomas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/shi-tomas.cpp.s
+.PHONY : shi-tomas.cpp.s
+
 sobel.o: sobel.cpp.o
 .PHONY : sobel.o
 
@@ -1258,6 +1295,7 @@ help:
 	@echo "... replain"
 	@echo "... roi"
 	@echo "... rotate"
+	@echo "... shi"
 	@echo "... sobel"
 	@echo "... test"
 	@echo "... threshold"
@@ -1336,6 +1374,9 @@ help:
 	@echo "... rotate.o"
 	@echo "... rotate.i"
 	@echo "... rotate.s"
+	@echo "... shi-tomas.o"
+	@echo "... shi-tomas.i"
+	@echo "... shi-tomas.s"
 	@echo "... sobel.o"
 	@echo "... sobel.i"
 	@echo "... sobel.s"

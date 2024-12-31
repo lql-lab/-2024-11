@@ -79,4 +79,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hist1.dir/DependInfo.cmake"
   "CMakeFiles/backpro.dir/DependInfo.cmake"
   "CMakeFiles/harris.dir/DependInfo.cmake"
+  "CMakeFiles/shi.dir/DependInfo.cmake"
   )

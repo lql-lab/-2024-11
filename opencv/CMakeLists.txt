@@ -43,11 +43,12 @@ add_executable(replain replain.cpp)
 add_executable(hist1 hist_dim1.cpp)
 add_executable(backpro backproject.cpp)
 add_executable(harris harris.cpp)
+add_executable(shi shi-tomas.cpp)
 
 # 所有需要链接的文件。
 set(EXECUTABLE_NAMES try_cap erode_make blur canny test transform rotate roi gauss constract_bright blurs morph
     fooldfill pyr threshold sobel houghline houghlineP houghs houghcircle equalhist warp counters hull
-    hull2 counters2 replain hist1 backpro harris)
+    hull2 counters2 replain hist1 backpro harris shi)
 
 # 将OpenCV库链接到可执行文件目标上
 foreach(executable_name ${EXECUTABLE_NAMES})

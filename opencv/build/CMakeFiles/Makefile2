@@ -93,6 +93,7 @@ all: CMakeFiles/replain.dir/all
 all: CMakeFiles/hist1.dir/all
 all: CMakeFiles/backpro.dir/all
 all: CMakeFiles/harris.dir/all
+all: CMakeFiles/shi.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -130,6 +131,7 @@ clean: CMakeFiles/replain.dir/clean
 clean: CMakeFiles/hist1.dir/clean
 clean: CMakeFiles/backpro.dir/clean
 clean: CMakeFiles/harris.dir/clean
+clean: CMakeFiles/shi.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -139,7 +141,7 @@ clean: CMakeFiles/harris.dir/clean
 CMakeFiles/try_cap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_cap.dir/build.make CMakeFiles/try_cap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_cap.dir/build.make CMakeFiles/try_cap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=57,58 "Built target try_cap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=59,60 "Built target try_cap"
 .PHONY : CMakeFiles/try_cap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -243,7 +245,7 @@ CMakeFiles/canny.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=51,52 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=53,54 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -269,7 +271,7 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform.dir/build.make CMakeFiles/transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform.dir/build.make CMakeFiles/transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=55,56 "Built target transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=57,58 "Built target transform"
 .PHONY : CMakeFiles/transform.dir/all
 
 # Build rule for subdir invocation for target.
@@ -503,7 +505,7 @@ CMakeFiles/pyr.dir/clean:
 CMakeFiles/threshold.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=53,54 "Built target threshold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=55,56 "Built target threshold"
 .PHONY : CMakeFiles/threshold.dir/all
 
 # Build rule for subdir invocation for target.
@@ -529,7 +531,7 @@ CMakeFiles/threshold.dir/clean:
 CMakeFiles/sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=49,50 "Built target sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=51,52 "Built target sobel"
 .PHONY : CMakeFiles/sobel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -685,7 +687,7 @@ CMakeFiles/equalhist.dir/clean:
 CMakeFiles/warp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warp.dir/build.make CMakeFiles/warp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=59,60 "Built target warp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=61,62 "Built target warp"
 .PHONY : CMakeFiles/warp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -911,6 +913,32 @@ harris: CMakeFiles/harris.dir/rule
 CMakeFiles/harris.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/clean
 .PHONY : CMakeFiles/harris.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/shi.dir
+
+# All Build rule for target.
+CMakeFiles/shi.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lql/Desktop/C++/opencv/build/CMakeFiles --progress-num=49,50 "Built target shi"
+.PHONY : CMakeFiles/shi.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/shi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lql/Desktop/C++/opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/shi.dir/rule
+
+# Convenience name for target.
+shi: CMakeFiles/shi.dir/rule
+.PHONY : shi
+
+# clean rule for target.
+CMakeFiles/shi.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shi.dir/build.make CMakeFiles/shi.dir/clean
+.PHONY : CMakeFiles/shi.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

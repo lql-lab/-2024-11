@@ -28,5 +28,6 @@
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/hist1.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/backpro.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/harris.dir
+/home/lql/Desktop/C++/opencv/build/CMakeFiles/shi.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/edit_cache.dir
 /home/lql/Desktop/C++/opencv/build/CMakeFiles/rebuild_cache.dir
